@@ -1,6 +1,7 @@
 {
   "label": "Knowledge",
   "position": 4,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
   }

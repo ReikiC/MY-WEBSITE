@@ -1,6 +1,7 @@
 {
   "label": "工具和方法论",
   "position": 6,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "开发工具、项目管理方法论和工作流程优化"

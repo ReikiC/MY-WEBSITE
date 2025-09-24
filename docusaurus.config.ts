@@ -44,7 +44,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // 启用侧边栏折叠功能
           sidebarCollapsible: true,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

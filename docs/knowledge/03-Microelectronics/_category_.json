@@ -1,6 +1,7 @@
 {
   "label": "微电子学",
   "position": 4,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "微电子器件、集成电路设计与制造工艺"

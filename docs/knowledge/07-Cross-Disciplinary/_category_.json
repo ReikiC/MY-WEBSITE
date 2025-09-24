@@ -1,6 +1,7 @@
 {
   "label": "跨学科内容",
   "position": 8,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "跨学科融合内容，多领域交叉知识"

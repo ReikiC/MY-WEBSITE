@@ -1,6 +1,7 @@
 {
   "label": "研究方法",
   "position": 7,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "科学研究方法、学术写作和实验设计"

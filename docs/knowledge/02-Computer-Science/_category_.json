@@ -1,6 +1,7 @@
 {
   "label": "计算机科学",
   "position": 3,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "计算机科学与技术，包含编程语言、算法、系统架构等核心内容"
