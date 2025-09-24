@@ -1,0 +1,8 @@
+{
+  "label": "通信工程",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "通信原理、信号处理、网络协议与系统设计"
+  }
+}

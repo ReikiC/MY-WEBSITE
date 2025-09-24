@@ -2,46 +2,71 @@
 sidebar_position: 1
 ---
 
-# Knowledge Intro
+# 知识库 (Knowledge Base)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+欢迎来到个人知识库！这里按照科学的学科分类体系组织各领域知识。
 
-## Getting Started
+## 🎯 分类层级说明
 
-Get started by **creating a new site**.
+采用三级分类体系：**大学科** → **中学科** → **细分学科**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 📊 学科体系
 
-### What you'll need
+### � 数学基础 (Mathematics)
+数学是所有科学技术的基础，包含：
+- **微积分** - 连续数学基础理论
+- **线性代数** - 向量空间与线性变换  
+- **概率统计** - 随机性与数据分析
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### � 计算机科学 (Computer Science)
+计算机系统与计算过程研究，涵盖：
+- **编程基础** - 编程语言与算法设计
+- **系统架构** - 计算机组织与网络
+- **理论基础** - 计算理论与形式化方法
 
-## Generate a new site
+### 🔬 微电子学 (Microelectronics)
+微电子器件与集成电路技术：
+- **器件物理** - 半导体器件原理
+- **电路设计** - 模拟与数字电路
+- **制造工艺** - 芯片制造流程
 
-Generate a new Docusaurus site using the **classic template**.
+### 📡 通信工程 (Communications)
+信息传输与处理技术：
+- **通信原理** - 调制解调与编码
+- **信号处理** - 数字信号分析
+- **网络协议** - 通信网络设计
 
-The classic template will automatically be added to your project after you run the command:
+### 🛠️ 工具和方法论 (Tools & Methodologies)
+效率提升与项目管理：
+- **开发工具** - IDE、版本控制、CI/CD
+- **项目管理** - 敏捷开发、团队协作
+- **工作流程** - 需求管理、质量保证
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 📚 研究方法 (Research Methods)
+科学研究的系统方法：
+- **实验设计** - 科学实验方法论
+- **学术写作** - 论文写作规范
+- **数据分析** - 统计分析方法
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 🌐 跨学科内容 (Cross-Disciplinary)
+多领域交叉融合知识：
+- **计算材料** - 材料科学+计算方法
+- **生物信息** - 生物学+信息技术
+- **量子计算** - 物理学+计算机科学
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 🎯 使用指南
 
-## Start your site
+### 导航方式
+- **按学科浏览** - 使用侧边栏分类导航
+- **关键词搜索** - 快速定位相关内容
+- **交叉引用** - 通过链接探索相关主题
 
-Run the development server:
+### 内容特点
+- **系统性** - 完整的知识体系结构
+- **层次性** - 从基础到进阶的学习路径  
+- **实用性** - 理论结合实际应用
+- **时效性** - 持续更新最新发展
 
-```bash
-cd my-website
-npm run start
-```
+---
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+*构建系统化、结构化的个人知识体系*
