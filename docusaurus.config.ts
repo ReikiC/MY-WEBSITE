@@ -42,6 +42,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // 启用侧边栏折叠功能
+          sidebarCollapsible: true,
+          sidebarCollapsed: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -72,6 +75,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -79,12 +88,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',
