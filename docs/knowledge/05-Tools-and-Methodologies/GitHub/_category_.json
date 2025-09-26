@@ -1,0 +1,9 @@
+{
+  "label": "GitHub",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "GitHub 是一个基于 Git 的版本控制和协作平台，广泛用于开源和私有项目的代码托管、版本管理和协作开发。"
+  }
+}

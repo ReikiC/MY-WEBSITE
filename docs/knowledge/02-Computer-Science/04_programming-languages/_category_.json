@@ -1,0 +1,9 @@
+{
+  "label": "programming-languages",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "编程语言是用于编写计算机程序的语言，具有特定的语法和语义。"
+  }
+}

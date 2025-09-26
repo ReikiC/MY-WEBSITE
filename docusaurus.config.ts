@@ -85,7 +85,7 @@ const config: Config = {
       title: 'Dankao Wiki',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.png',
+        src: '/img/logo.png',
       },
       items: [
         // {

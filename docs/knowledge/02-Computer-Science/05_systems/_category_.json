@@ -1,0 +1,9 @@
+{
+  "label": "systems",
+  "position": 5,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "系统是由多个组件组成的整体，旨在实现特定功能或目标。"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "algorithms",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "算法是解决特定问题的一系列步骤或规则，广泛应用于计算机科学和数学领域。"
+  }
+}

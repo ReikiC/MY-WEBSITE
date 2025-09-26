@@ -1,0 +1,9 @@
+{
+  "label": "嵌入式系统 (Embedded Systems)",
+  "position": 6,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "嵌入式系统是专门为特定应用设计的计算机系统，通常具有实时计算能力和对资源的严格限制。"
+  }
+}
