@@ -6,6 +6,8 @@ sidebar_position: 0
 
 计算机科学是研究算法设计、计算系统构建及其在各领域应用的综合性学科，涵盖从理论基础到工程实践的完整体系。
 
+推荐：CS自学指南 https://csdiy.wiki/
+
 ## 🎯 学科体系概览
 
 ### � **算法与数据结构** (Algorithms & Data Structures)

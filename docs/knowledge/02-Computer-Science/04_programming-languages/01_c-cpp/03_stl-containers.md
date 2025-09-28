@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # STL 标准模板库
 
 STL（Standard Template Library）是C++标准库的核心组成部分，提供了高效的数据结构和算法实现。
