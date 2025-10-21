@@ -31,10 +31,16 @@ const friendLinks: FriendLink[] = [
     },
     // 添加更多友链...
     {
-        title:'Dankao Wiki',
-        description:'Dankao的个人知识库',
-        website:'https://reikic.github.io/MY-WEBSITE/',
-        avatar:'https://reikic.github.io/MY-WEBSITE/img/logo.png'
+      title:'Dankao Wiki',
+      description:'Dankao的个人知识库',
+      website:'https://reikic.github.io/MY-WEBSITE/',
+      avatar:'https://reikic.github.io/MY-WEBSITE/img/logo.png'
+    },
+    {
+      title: '云翰虹章',
+      description: '我的公司官网',
+      website: 'https://rn-website-beta.vercel.app/',
+      avatar: 'https://reikic.github.io/MY-WEBSITE/img/RN-Logo.jpg'
     },
     {
     title: 'HNRobert\'s Space',
