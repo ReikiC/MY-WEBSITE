@@ -11,25 +11,43 @@ interface FriendLink {
 }
 
 const friendLinks: FriendLink[] = [
-  {
+    {
     title: 'Docusaurus',
     description: '快速构建以内容为核心的最佳网站',
     website: 'https://docusaurus.io/',
     avatar: 'https://docusaurus.io/img/docusaurus.png',
-  },
-  {
+    },
+    {
     title: 'React',
     description: '用于构建用户界面的 JavaScript 库',
     website: 'https://react.dev/',
     avatar: 'https://react.dev/favicon.ico',
-  },
-  {
+    },
+    {
     title: 'GitHub',
     description: '全球最大的代码托管平台',
     website: 'https://github.com',
     avatar: 'https://github.githubassets.com/favicons/favicon.png',
-  },
-  // 添加更多友链...
+    },
+    // 添加更多友链...
+    {
+        title:'Dankao Wiki',
+        description:'Dankao的个人知识库',
+        website:'https://reikic.github.io/MY-WEBSITE/',
+        avatar:'https://reikic.github.io/MY-WEBSITE/img/logo.png'
+    },
+    {
+    title: 'HNRobert\'s Space',
+    description: 'HNRobert\'s Space',
+    website: 'https://hnrobert.space',
+    avatar: 'https://hnrobert.space/assets/favicon.ico'
+    },
+    {
+    title: '冯宁辉的赛博史记',
+    description: '冯半仙的个人日志博客',
+    website: 'https://feng1201.github.io/my_blog',
+    avatar: 'https://your-website.com/avatar.png'
+    },
 ];
 
 function FriendCard({ title, description, website, avatar }: FriendLink) {

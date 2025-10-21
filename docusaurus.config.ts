@@ -137,7 +137,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/ReikiC/MY-WEBSITE',
+          href: 'https://github.com/ReikiC',
           label: 'GitHub',
           position: 'right',
         },
@@ -181,7 +181,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/ReikiC/MY-WEBSITE',
+              href: 'https://github.com/ReikiC',
             },
           ],
         },

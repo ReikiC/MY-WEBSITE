@@ -1,0 +1,9 @@
+{
+  "label": "Virtual Environments",
+  "position": 2,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "虚拟环境是用于隔离和管理项目依赖的工具。"
+  }
+}
