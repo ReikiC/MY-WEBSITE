@@ -131,6 +131,7 @@ const config: Config = {
         {to: '/docs/knowledge', label: 'Knowledge', position: 'left'},
         {to: '/docs/research', label: 'Research', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/links', label: 'Links', position: 'left'},
         {
           type: 'search',
           position: 'right',

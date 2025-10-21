@@ -1,0 +1,294 @@
+/* 页面主容器 */
+.friendLinksPage {
+  padding: 2rem 0;
+  min-height: calc(100vh - 60px);
+  background: linear-gradient(180deg, var(--ifm-background-color) 0%, var(--ifm-color-emphasis-100) 100%);
+}
+
+.friendLinksContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 页面标题区域 */
+.friendLinksHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInDown 0.6s ease-out;
+}
+
+.friendLinksTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.friendLinksSubtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 友链卡片网格 */
+.friendLinksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+/* 友链卡片 */
+.friendCard {
+  height: 100%;
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.friendCard:nth-child(1) { animation-delay: 0.1s; }
+.friendCard:nth-child(2) { animation-delay: 0.2s; }
+.friendCard:nth-child(3) { animation-delay: 0.3s; }
+.friendCard:nth-child(4) { animation-delay: 0.4s; }
+.friendCard:nth-child(5) { animation-delay: 0.5s; }
+.friendCard:nth-child(6) { animation-delay: 0.6s; }
+
+.friendCardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.friendCardInner {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.friendCardInner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.friendCardInner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.friendCardInner:hover::before {
+  transform: scaleX(1);
+}
+
+/* 卡片头部 */
+.friendCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.friendAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.3s ease;
+}
+
+.friendCardInner:hover .friendAvatar {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.friendCardTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.friendCardTitle h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+}
+
+.externalLinkIcon {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.friendCardInner:hover .externalLinkIcon {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+/* 卡片描述 */
+.friendCardDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 申请友链区域 */
+.applySection {
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  animation: fadeIn 0.8s ease-out 0.7s both;
+}
+
+.applySectionTitle {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.applySectionContent {
+  color: var(--ifm-color-emphasis-800);
+}
+
+.applySectionContent p {
+  margin-bottom: 1rem;
+}
+
+.applySectionContent ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.applySectionContent ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.applySectionContent a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.applySectionContent a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+.applySectionNote {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+
+.applySectionNote p {
+  margin-bottom: 0.5rem;
+}
+
+.codeBlock {
+  background: var(--ifm-code-background);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0.5rem 0 0 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* 动画 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .friendLinksTitle {
+    font-size: 2rem;
+  }
+
+  .friendLinksSubtitle {
+    font-size: 1rem;
+  }
+
+  .friendLinksGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .friendLinksContainer {
+    padding: 0 1rem;
+  }
+
+  .applySection {
+    padding: 1.5rem;
+  }
+}
+
+/* 暗色模式适配 */
+[data-theme='dark'] .friendCardInner {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .friendCardInner:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .applySection {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
+}
