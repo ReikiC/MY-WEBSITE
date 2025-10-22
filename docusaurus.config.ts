@@ -17,10 +17,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://ReikiC.github.io',
+  url: 'https://dankao.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/MY-WEBSITE/',
+  // For custom domain, it should be '/'
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
