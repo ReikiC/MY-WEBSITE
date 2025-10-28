@@ -1,41 +1,33 @@
-# Website
+# Dankao's Personal Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> Personal knowledge base & research documentation for PhD journey
 
-## Installation
+## Tech Stack
+- **Framework**: [Docusaurus](https://docusaurus.io/) (TypeScript)
+- **Content**: Markdown/MDX with LaTeX support
+- **Deployment**: GitHub Pages (auto-deploy on push to Master)
+- **Search**: Local search powered by @easyops-cn/docusaurus-search-local
 
-```bash
-yarn
+## Structure
+```
+docs/
+├── knowledge/      # Knowledge base (Math, CS, EE, etc.)
+├── research/       # Research plans & tracking
+└── tutorial-*/     # Tutorials
+blog/               # Blog posts
+src/pages/          # Custom pages (Home, Links)
 ```
 
-## Local Development
+## Development
 
 ```bash
-yarn start
+npm install && npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## Deploy
 
 ```bash
-yarn build
+npm run build        # Build static site
+npm run deploy       # Deploy to gh-pages (manual)
+# or push to Master branch for auto-deploy via GitHub Actions
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
