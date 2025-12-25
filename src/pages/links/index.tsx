@@ -52,7 +52,7 @@ const friendLinks: FriendLink[] = [
     title: '冯宁辉的赛博史记',
     description: '冯半仙的个人日志博客',
     website: 'https://feng1201.github.io/my_blog',
-    avatar: 'https://your-website.com/avatar.png'
+    avatar: 'https://reikic.github.io/MY-WEBSITE/img/NinghuiFeng.jpg'
     },
 ];
 
