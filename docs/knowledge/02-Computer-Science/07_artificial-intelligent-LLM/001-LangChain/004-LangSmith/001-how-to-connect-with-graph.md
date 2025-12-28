@@ -26,7 +26,7 @@ uv run langgraph dev
 
 LangGraph CLI 会：
 
-#### **第 1 步：读取配置** ([langgraph.json](backend/langgraph.json))
+#### **第 1 步：读取配置** (`langgraph.json`)
 ```json
 {
   "graphs": {
