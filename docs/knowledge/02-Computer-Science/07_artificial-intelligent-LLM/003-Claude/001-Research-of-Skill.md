@@ -40,7 +40,10 @@ MCP 將 Claude 連接到外部服務與資料來源。技能則提供程序化�
 
 ### 经典使用架构
 
-<img src="img/MCP-Agent-Skill.jpg" style={{width: '90%'}} alt="MCP-Agent-Skill" />
+<div style={{textAlign: 'center'}}>
+  <img src="img/MCP-Agent-Skill.jpg" alt="MCP-Agent-Skill" width="90%" />
+</div>
+
 https://www.youtube.com/watch?v=CEvIs9y1uog
 
 Anthropic将Claude Skills描述为"使Claude更快、更便宜、更一致地处理重复性工作流的自定义能力"。每个Skill包含Claude执行任务所需的精确上下文，使其能够每次以相同的方式执行任务，而无需依赖详细的提示词。
@@ -66,9 +69,12 @@ Anthropic将Claude Skills描述为"使Claude更快、更便宜、更一致地处
 
 其中提到使用Skill用来规范MCP工作流
 
-<div style={{display: 'flex', gap: '1rem', justifyContent: 'space-between', alignItems: 'center'}}>
-	<img src="img/Video-1.png" style={{width: '49%'}} alt="Video 1" />
-	<img src="img/Video-2.png" style={{width: '49%'}} alt="Video 2" />
+<div style={{textAlign: 'center'}}>
+  <img src="img/Video-1.png" alt="Video 1" width="70%" />
+</div>
+
+<div style={{textAlign: 'center'}}>
+  <img src="img/Video-2.png" alt="Video 2" width="70%" />
 </div>
 
 
